@@ -1,0 +1,36 @@
+
+.progress-percent2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f42f54;
+    border-radius: 54px;
+    font-size: 14px;
+}
+
+.progress-bar2 {
+    position: relative;
+    width: 100%!important;
+    height: 10px!important;
+    border-radius: 4px;
+    background: rgba(151, 175, 213, 0.3);
+    background-color: #252525!important;
+
+}
+
+.progress-percent-s:after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    right: 0;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background: #f42f54;
+    transform: translate(50%, -50%);
+}

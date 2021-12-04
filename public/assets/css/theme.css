@@ -1,0 +1,14 @@
+/*!
+Template :	ICOCrypto @by Softnio
+Theme	 :  Default
+Version	 :	1.9.2
+Updated	 :	01.15.2020
+*/
+/*! WRITE YOUR CUSTOM STYLE **/
+div#WEB3_CONNECT_MODAL_ID {
+    z-index: 100000000;
+    position: absolute;
+}
+#walletconnect-wrapper{
+    z-index:0!important;
+}
